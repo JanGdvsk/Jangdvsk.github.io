@@ -1,0 +1,645 @@
+body {
+    font-family: 'Roboto';
+    /* max-width: 1160px; */
+    margin: auto;
+}
+.heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 20px;
+}
+.navbar {
+    padding-top: 25px;
+
+}
+.navbar-light .navbar-toggler .collapsed{
+    position: absolute;
+    right: 25px;
+    padding-left: 150px;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 25px;
+}
+
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl
+ { justify-content: space-between; 
+    padding-left: 0px; 
+}
+
+.header__logo_white {
+    display:none;
+    width: 150px;
+}
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 0px;
+}
+.text-flow {
+   margin-bottom: 23px; 
+   text-align: left;
+   width: 220px;
+}
+.top_text_margin {
+   width: 75%;
+   margin: auto;
+}
+.text_settings {
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 11px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.top {
+    background-color: #e0e1e2;    
+    padding-bottom: 40px;
+}
+.top__img {
+    margin-top: 94px;
+    height: 256px;
+    background-image:url(img/MX-Master\ 1.png) ;
+    background-size: contain;
+    margin-bottom: 41px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top_arrow {
+    margin-top: 40px;
+
+}
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+.bluetooth {
+    background: #ededed;    
+    padding-top: 42px;
+    padding-bottom: 18px;
+
+}
+.bluetooth_icon {
+    margin-bottom: 27px;
+}
+
+.bluetooh_heading {
+  font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    margin-top: 31px;
+}
+.bluetooth_img {
+    height: 278px;
+    background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);    
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+.text_margin {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.info {
+    padding-top: 70px;
+    padding-bottom: 77px;   
+}
+.info_item {
+    box-sizing: border-box; 
+    flex-basis: 166px;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #2F3132;
+    margin-left: 25px;
+}
+.info_content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+
+}
+.info_heading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color:#2F3132;
+}
+.carousel {
+    margin-bottom: 100px;
+}
+.info__text {
+    margin-left: 67px;
+    margin-right: 61px;
+}
+.info_content {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+.info_item-heading {
+    margin-bottom: 5px;
+}
+.flow {
+    padding-top: 70;
+    padding-bottom: 218px;
+    background-image:url(img/High_Resolution_JPG-MX\ Lifestyle\ 23461.svg);
+    background-repeat:no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.flow_ol {
+    margin-top: 30px;
+    padding-left: 54px;
+    height: 111px;
+
+}
+.setting {
+    padding-top: 70px;
+    background: #ededed
+
+}
+.settint__slider{
+    margin: 35px 22px 95px 23px ;
+}
+
+.settings__content {
+    background: #C4C4C4;
+    padding: 23px 22px 26px 29px;
+}
+.settings__icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.carousel-indicators [data-bs-target] {
+     width: 5px;
+     height: 5px;
+}
+.mouse__text {
+    padding: 30px;
+    padding-bottom: 20px;
+}
+
+.mouse__img {
+    height: 310px;
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.mouse__img1 {
+    background-image:url(img/image\ 1.png)
+
+}
+
+.mouse__img2 {
+    background-image:url(img/image\ 2.svg)
+
+}
+.footer {
+    background: #2F3132;
+    height: 75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    color: #C7C8C8;
+    padding-top: 22px;
+}
+.top__svg {
+    width: 42px;
+    height: 22px;
+}
+.settings__slider__img {
+    display: none;
+}
+
+ @media (min-width: 768px){
+   .top {
+       padding-bottom: 80px;
+   }
+   .navbar{
+    padding-top: 54px;
+   }
+   .top__img {
+    margin-top: 159px;
+    height: 514px;
+    margin-bottom: 124px;
+   }
+   .header__logo {
+       width: 240px;
+   }
+   .heading{
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 30px;   
+   } 
+   .text {
+    font-size: 24px;
+    line-height: 28px;
+ 
+   }
+   .Top_text_margin {
+    padding-right: 159px;
+    padding-left: 150px;
+   }
+   .top_arrow {
+       margin-top: 70px;
+   }
+   .top__svg {
+    width: 61px;
+    height: 33px;
+}
+    .bluetooth{
+        padding-top: 80px;
+        padding-bottom: 3px;
+    }
+    .text_margin {
+        margin-left: 77px;
+        margin-right: 77px;
+    }
+    .bluetooh_heading {
+        font-size: 150px;
+        line-height: 176px;
+        height: 176px;
+    }
+    .bluetooth_img {
+        height: 598px;
+        margin-left: 39px;
+        margin-right: 19px;
+        padding-top: 50px;
+    }
+    .info_content {
+        margin-top: 50px; ;
+        margin-bottom: 50px;
+        gap: 30;
+    }
+    .info_item {
+        flex-basis: 300px;
+        min-height: 170px;
+    }
+    .info_item-heading {
+        margin-bottom: 5px;   
+    }
+    .info_heading {
+        font-size: 24px;
+        line-height: 28px;  
+    }
+    .flow {
+         padding-bottom: 598px;
+         background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 23461.png);
+         padding-left: 64px;
+         padding-right: 64px;
+         padding-left: 0px;
+    
+    }
+    .flow_ol {
+        display: flex;
+        list-style-position: inside;
+    }
+    .flow_text {
+      margin-left: 0px;  
+      margin-right: 0px;
+    }
+    .text-flow {
+        width: auto;
+        border-left: 1px solid black;
+        font-size: 20px;
+        line-height: 23px;
+        padding: 8px 21px 4px 28px;
+    }
+    .text-flow:first-child{
+        border-left: none;
+        padding-left: 0;
+    }
+    .text-flow:last-child{
+        padding-right: 0px;
+    }
+    .setting {
+        padding-bottom:70px;
+    }
+    .settings__content {
+        padding-left: 64px;
+        padding-right: 65px;
+    }
+    .settint__slider{
+        margin: 54px 198px 150px;
+    }
+   .heading_settings-p {
+        margin-left: 64px;
+        margin-right: 65px;
+   } 
+   .text_settings-t {
+        margin-left: 64px;
+        margin-right: 65px;
+   }
+   .settings__icons {
+       margin-right: 104px;
+       margin-left: 98px;
+   }
+   .Settings_img {
+       height:35px;
+   }
+   .text_settings {
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 40px;
+    padding-right: 40px;
+   }
+   .text-mouse {
+        margin-left:0px; 
+        margin-right: 0px; 
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 50px;
+
+   }
+   .mouse__text {
+       padding-left: 67px;
+       padding-right: 64px;
+  }
+  .mouse__img {
+      height: 549px;
+  }
+  .mouse__img1 {
+    background-image: url(img/image\ 1_1.png);
+}
+.mouse__img2 {
+    background-image:url(img/image\ 2.png)
+}
+.footer {
+    height:150px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 47px;
+    color: #C7C8C8;
+}
+}
+@media(min-width: 1024px) {
+        .center {
+            padding-right: calc(50% - 580px);
+            padding-left: calc(50% - 580px);
+        }
+
+        .header__logo_dark {
+            display:none;
+        }
+
+        .header__logo_white {
+            display:block;
+            width: 150px;
+        }
+
+        .navbar {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            width: 100%;
+        }
+
+        .header {
+            background:#2F3132;
+            height: 100px;
+            display: flex;
+            align-items: center;
+        }
+        .navbar-expand-lg .navbar-nav .nav-link {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;         
+            text-align: center;            
+            color: #FFFFFF;
+        }
+        .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+            font-family: Roboto;
+
+            font-style: normal;
+            border-bottom: 1px solid #FFFFFF;   
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+ 
+        } 
+       .nav-link {
+           padding-left: 18px;
+           padding-left: 18px;
+           border-right: 1px solid #494949;
+       }
+       .nav-link:first-child{
+           padding-left: 0px;
+       }
+       .nav-link:last-child{
+           padding-right: 0px;
+           border-right: none;
+       }
+       .top__img {
+           margin-top: 20px;
+           height: 671px;
+           padding-top: 80px;
+           margin-bottom: 8px;
+
+       }
+       .center__bluetooth{
+        padding-left: calc(50% - 622px);
+        padding-right: calc(50% - 622px);
+    }
+       .heading {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 35px;
+       }
+       .text {
+        font-size: 20px;
+        line-height: 23px;
+       }
+       .top_arrow
+       {
+           margin-top: 49px;
+       }
+       .bluetooth_img {
+           height: 427px;
+           background: url(img/High_Resolution_PNG-MX\ Master\ 3\ FRONT\ GRAPHITE\ 1.png) no-repeat 0 119px,
+           url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png) no-repeat right 119px;
+           margin-left: 0px;
+           margin-right: 0px;
+           padding-top: 0px;
+       }
+
+       .bluetooth_heading_day {
+        font-size: 300px;
+        line-height: 352px;
+        padding-left: 74px;
+        
+       }
+       .bluetooth {
+           padding-bottom: 80px;
+       }
+
+       .bluetooh_heading {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 112px;
+        text-align: center;
+        text-transform: uppercase;
+        display:flex;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        }
+        .text_margin {
+           width: 760px;
+           margin: auto;
+        }
+       .bluetooth_heading_day_min{
+           padding-top: 45px;
+       }
+
+       .info {
+         padding-top: 100px;  
+         padding-bottom: 100px;
+       }
+       .info__text {
+           width: 765px;
+           margin: auto;
+       }
+       .info_item {
+           min-height: 140px;
+           padding-left: 24px;
+           padding-right: 24px;
+       }
+       .info_item-heading
+       {
+           margin-bottom: 5px;
+       }
+       .info__slider {
+        padding-left: calc(50% - 640px);
+        padding-right: calc(50% - 640px);
+       }
+       .text_info {
+           width: 765px;
+           margin: auto;
+       }
+       .flow_center {
+           padding-left: calc(50% - 479px);
+           padding-right: calc(50% - 479px);
+       }
+       .flow {
+           padding-bottom: 870px;
+       }
+       .flow_ol {
+           padding-left: 15px;
+       }
+       .info_heading {
+           padding-top: 100px;
+       }
+       .flow_text {
+         width: 958px;
+        margin: auto;
+       }
+       .text_settings-t {
+           width: 958;
+        }
+        .carousel {
+            display: none;
+        }
+        .settings {
+            padding-bottom: 100px;
+        }
+        .settings__slider__img{
+            display: flex;
+            justify-content: center;
+            margin-top: 71px;
+        }
+        .settings__content {
+            width: 749px;
+            margin: auto;
+        }
+        .mouse_center {
+            padding-left: calc(50% - 655px);
+            padding-right: calc(50% - 655px);
+        }
+        .mouse__item {
+            height: 557px;
+            width: 50%;
+            /* display: flex; */
+            flex-direction:column;
+            justify-content: center;
+
+        }
+        .mouse {
+            display: flex;
+            flex-wrap: wrap;
+            order: 0;
+        }
+        .text-mouse {
+            /* width: 400px; */
+            margin: auto;
+        }
+        .mouse_text_1 {
+            padding-right: 217px;
+            order: 2;
+        }
+        .mouse_text_1 .heading {
+            text-align: left;
+            margin-bottom: 28px;
+        }
+        .mouse_text_1 .text {
+            text-align: left;
+        }
+        .mouse_text_2 .heading {
+            text-align: right;}
+        .mouse_text_2 .text {
+            text-align: right;
+            margin-bottom: 28px;}
+
+        .mouse_text_2 {
+            padding-left: 217px;
+            order: 3;
+        }
+        .mouse__img1 {
+            order: 1;
+            background-image: url(img/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2.png);
+        }
+
+        .mouse__img2 {
+            order: 4;
+            background-image: url(img/image\ 2.png);
+        }
+
+    }
